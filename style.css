@@ -1,0 +1,75 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+h1{
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(71, 169, 235);
+}
+.bg{
+    background-color: crimson;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+}
+.search-bar{
+    margin-top: 25px;
+    padding-left: 130px;
+}
+input{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    height: 40px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(141, 198, 236);
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.msg{
+    margin-top: 25px;
+    height: 50px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 130px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    display: none;
+}
+section > .main-table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 80%;
+    border-collapse: separate;
+    margin-top: 15px;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid rgb(141, 198, 236);
+    text-align: left;
+}
+th{
+    background-color: rgb(141, 198, 236);
+    color: white;
+}
