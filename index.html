@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit Sales Assignment</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <nav class="nav-bar"><h1>Mr. Mich's Fruits Shop</h1></nav>
+        </nav>
+    </header>
+    <div class="search-bar">
+        <input type="search" id="searchTextInput" placeholder=" Enter Fruit search query here: ">
+        <button onclick="returnedSearch()">Search</button>
+    </div>
+    <div class="msg" id="Msg">
+        <div class="message">
+            <!--message enters here-->
+        </div>
+    </div>
+    <section>
+        <div class="main-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fruit Name</th>
+                        <th>Basket Type</th>
+                        <th>Quantity</th>
+                        <th>Price ($)</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body" id="table-data">
+                    <!--table data will be inserted here-->
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
